@@ -8,14 +8,14 @@ function App() {
   return (
     <div className='bg-white pb-6 sm:pb-8 lg:pb-12'>
       <div className='max-w-screen-2xl px-4 md:px-8 mx-auto'>
-        <header className='flex justify-between items-center py-4 md:py-8 mb-8 md:mb-12 xl:mb-16'>
+        <header className='flex justify-between items-center py-4 md:py-8 mb-5 md:mb-12 xl:mb-13'>
           {/* logo */}
           <a href="#" className='inline-flex items-center text-block-800 text-2xl md:text-3xl font-bold gap-2.5' aria-label='logo'>Kohta</a>
 
           {/* nav */}
           <nav className='hidden lg:flex gap-12'>
             <a href="#" className='text-indigo-500 text-lg font-semibold'>Home</a>
-            <a href="#" className='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transirion duraition-100'>About</a>
+            <a href="#about" className='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transirion duraition-100'>About</a>
             <a href="#" className='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transirion duraition-100'>Skills</a>
             <a href="#" className='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transirion duraition-100'>Blog</a>
             <a href="#" className='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transirion duraition-100'>Work</a>
@@ -56,7 +56,7 @@ function App() {
         </section>
 
         {/* about */}
-        <div className='bg-white py-6 sm:py-8 lg:py-12'>
+        <div className='bg-white py-6 sm:py-8 lg:py-12' id='about'>
           <div className='max-w-screen-xl px-4 md:px-8 mx-auto'>
             <div className='grid md:grid-cols-2 gap-2 lg:gap-12'>
               <div>
@@ -80,6 +80,8 @@ function App() {
             </div>
           </div>
         </div>
+
+        {/* skills */}
       </div>
     </div>
   )
